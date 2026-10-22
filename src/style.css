@@ -1,0 +1,35 @@
+:root {
+    --bs-body-font-family: "Outfit", sans-serif;
+}
+
+.fonte-logo {
+    font-family: "Fraunces", serif;
+}
+.assinatura {
+    font-family: "Great Vibes", cursive;
+}
+
+.rolagem {
+    animation: 20s linear 0s infinite rolar;
+}
+
+@keyframes rolar {
+    to {
+        transform: translateX(-139.5%);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+footer p:hover {
+    background-color: #222222;
+}
